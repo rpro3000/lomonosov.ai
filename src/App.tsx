@@ -126,7 +126,7 @@ function App() {
     } catch (error) {
       console.error('Error calling Ollama API:', error);
       const errorMessage: Message = {
-        text: "Извините, произошла ошибка при обработке вашего запроса. Пожалуйста, убедитесь, что Ollama запущена и доступна по адресу http://localhost:11434",
+        text: "Пока идет разработка",
         isUser: false
       };
       setMessages(prev => [...prev, errorMessage]);
